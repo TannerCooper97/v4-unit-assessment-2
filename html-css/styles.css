@@ -12,3 +12,174 @@ the font is called 'nunito' and can be found on google fonts
 ***you can use it if you'd like or you can choose your own***
 
 */
+
+* {
+    font-family: sans-serif;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    background-color: 24252A;
+}
+
+#main-container{
+    height: 210vh;
+}
+
+.nav-buttons {
+   
+    font-weight: 500;
+    font-size: 12px;
+    text-decoration: none;
+}
+
+header {
+    position: fixed;
+    display:flex;
+    justify-content: space-between;
+    align-items:center;
+    padding: 20px ;
+    background-color: rgb(37, 37, 37);
+    width:100%;
+    height: 10vh;
+}
+
+.dev-logo {
+    
+    color: rgb(42, 171, 226)
+}
+
+.nav-links li {
+    display:inline-block;
+    padding: 0px 20px;
+
+}
+
+.nav-links li a {
+    text-decoration: none;
+    color: rgb(148, 145, 145);
+}
+
+#Upper-Section{
+    display:flex;
+    justify-content: center;
+    align-items :center;
+   
+    padding-left: 15%;
+    padding-right: 15%;
+    padding-top: 5%;
+    
+    
+}
+
+.Text-Section {
+    display:flex;
+    justify-content:center;
+    align-items: center;
+
+}
+
+#skills-check{
+    padding-bottom: 5%;
+    padding-top: 5%;
+}
+.random-text{
+    display: flex;
+    flex-wrap: wrap;
+   font-size: 15px;
+   padding-right: 25%;
+
+   
+}
+
+.profile{
+display: flex;
+position: absolute;
+right: 150px;
+top: -75px;
+z-index: -1;
+
+}
+
+#profile-name{
+    position: absolute;
+    top: 350px;
+    right: 10px;
+    font-size: 20px;
+    
+}
+
+
+#profile-pic{
+    display: flex;
+    position: relative;
+    height: 125px;
+    width: 125px;
+    
+}
+
+#Profile-items{
+    position:absolute;
+
+    right: 105px;
+    top: 400px;
+    -webkit-box-shadow: 0px 0px 23px 3px rgba(0,0,0,0.84); 
+box-shadow: 0px 0px 23px 3px rgba(0,0,0,0.84);
+}
+
+#pop-items{
+    position:relative;
+    left: 20px;
+    padding: 10px;
+}
+.ol-tiems{
+    padding: 7px;
+}
+
+
+#Image-Text{
+    display: flex;
+    justify-content: start;
+    padding-left: 15%;
+    padding-top: 10%;
+}
+
+#images1{
+    display: flex;
+    position: absolute;
+    top: 55%;
+    left: 15%;
+    z-index: -1;
+    
+}
+
+#images2{
+    display: flex;
+    position: absolute;
+    top: 80%;
+    left: 15%;
+    z-index: -1;
+    
+}
+
+.image-items{
+    display: flex;
+    height: 20% ;
+    width: 20%;
+}
+
+#item{
+    padding: 5%;
+}
+
+footer{
+    display:flex;
+    align-items:center;
+    position:absolute;
+    top: 210vh;
+    padding: 20px ;
+    background-color: rgb(37, 37, 37);
+    width:100%;
+    height: 7vh;
+    background-color: rgb(42, 171, 226)
+}
+
